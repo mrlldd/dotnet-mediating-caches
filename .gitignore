@@ -1,0 +1,4 @@
+﻿**/.idea
+MediatingCaches/**/bin
+MediatingCaches/**/obj
+MediatingCaches/MediatingCaches.sln.DotSettings.user

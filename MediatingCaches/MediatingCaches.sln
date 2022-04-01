@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatingCaches", "MediatingCaches\MediatingCaches.csproj", "{650BEDA9-196B-4472-8F6A-C4A36DE059CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatingCaches.Tests", "MediatingCaches.Tests\MediatingCaches.Tests.csproj", "{5675F524-9D83-4E9F-AEE6-E053969DF845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatingCaches.Abstractions", "MediatingCaches.Abstractions\MediatingCaches.Abstractions.csproj", "{15773F8F-656F-4A60-8DD6-6A45FFD3CD81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{453F4AF7-6922-46CA-99E5-BAB83F327D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatingCaches.Root", "MediatingCaches.Root\MediatingCaches.Root.csproj", "{BD00DB8F-D901-4511-ABF9-BC556324398F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatingCaches.Memory", "MediatingCaches.Memory\MediatingCaches.Memory.csproj", "{B6BDF759-2D4E-4A4D-A288-6743B6926997}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{465AB211-E7C8-401F-8726-6C5B2522E17E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{650BEDA9-196B-4472-8F6A-C4A36DE059CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650BEDA9-196B-4472-8F6A-C4A36DE059CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650BEDA9-196B-4472-8F6A-C4A36DE059CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650BEDA9-196B-4472-8F6A-C4A36DE059CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5675F524-9D83-4E9F-AEE6-E053969DF845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5675F524-9D83-4E9F-AEE6-E053969DF845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5675F524-9D83-4E9F-AEE6-E053969DF845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5675F524-9D83-4E9F-AEE6-E053969DF845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15773F8F-656F-4A60-8DD6-6A45FFD3CD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15773F8F-656F-4A60-8DD6-6A45FFD3CD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15773F8F-656F-4A60-8DD6-6A45FFD3CD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15773F8F-656F-4A60-8DD6-6A45FFD3CD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD00DB8F-D901-4511-ABF9-BC556324398F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD00DB8F-D901-4511-ABF9-BC556324398F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD00DB8F-D901-4511-ABF9-BC556324398F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD00DB8F-D901-4511-ABF9-BC556324398F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6BDF759-2D4E-4A4D-A288-6743B6926997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6BDF759-2D4E-4A4D-A288-6743B6926997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6BDF759-2D4E-4A4D-A288-6743B6926997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6BDF759-2D4E-4A4D-A288-6743B6926997}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6BDF759-2D4E-4A4D-A288-6743B6926997} = {453F4AF7-6922-46CA-99E5-BAB83F327D96}
+		{BD00DB8F-D901-4511-ABF9-BC556324398F} = {465AB211-E7C8-401F-8726-6C5B2522E17E}
+	EndGlobalSection
+EndGlobal
